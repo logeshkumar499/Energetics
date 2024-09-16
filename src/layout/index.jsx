@@ -28,9 +28,7 @@ function Layout({ children }) {
   return (
     <Fragment>
       <div className="view-container">
-        {/* <Header /> */}
         <main id="page-scroller">{children}</main>
-        
       </div>
     </Fragment>
   );

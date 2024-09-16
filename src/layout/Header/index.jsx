@@ -21,7 +21,7 @@ export default function Header() {
       <nav className="navbar navbar-expand-lg navbar-light">
         <a className="navbar-brand" href="/#/home">
           <img
-            src={activeTab !== "/home" ? LogoWhite : Logo}
+            src={activeTab === "/contact" ? LogoWhite : Logo}
             width=""
             height="40"
             alt="logo"
@@ -40,7 +40,7 @@ export default function Header() {
             className="navbar-toggler-icon"
             style={{
               backgroundImage: `url(${
-                activeTab !== "/home" ? NavIconWhite : NavIcon
+                activeTab == "/contact" ? NavIconWhite : NavIcon
               })`,
             }}
           ></span>
