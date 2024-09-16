@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+#root {
+  max-width: 1680px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem 0.4rem;
+  text-align: center;
+  background-color: #ffffff;
+  height: 100%;
+  font-family: Montserrat;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --btn-bg-color: #911d3c;
+  --fs-10: 10px;
+  --fs-12: 12px;
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-25: 25px;
+  --fs-28: 28px;
+  --fs-32: 32px;
+  --fs-38: 38px;
+  --fs-44: 44px;
+  --fs-55: 55px;
+  --fs-65: 65px;
+
+}
+
+html,
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  color-scheme: light !important;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: none;
+}
+
+*,
+*:focus {
+  outline: none;
+}
+
+/* Limit the maximum width to 2K resolution */
+.view-container {
+  height: 100%;
+  width: 100%;
+}
+
+.one-line {
+  word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.two-line {
+  word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.row-gap-1 {
+  row-gap: 1rem;
+}
+
+.w-80 {
+  width: 80% !important;
+}
+.w-90 {
+  width: 90% !important;
+}
+.w-100 {
+  width: 100% !important;
+}
+
+.text-start {
+  text-align: start !important;
+}

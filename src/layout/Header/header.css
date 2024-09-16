@@ -1,0 +1,46 @@
+.navbar-nav {
+  background-color: #f6f8fa !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 600 !important;
+  text-align: center;
+  color: #0d0d12 !important;
+}
+.navbar-brand img {
+  /* width: 200px; */
+  width:14rem;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler-icon{
+  height: 1em !important;
+  width: 1.3em !important;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand img {
+    width: 130.5px;
+    height: 25px;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    padding: 0.4vw 0.6vw;
+    margin-left: auto !important;
+    justify-content: space-around;
+    gap: 0.5rem;
+    border-radius: 100px;
+    max-width: 100%;
+  }
+  .navbar-light .navbar-nav .active > .nav-link {
+    color: #f8fafb !important;
+    background-color: #911d3c;
+    border-radius: 100px;
+    width: 100%;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+  }
+}
