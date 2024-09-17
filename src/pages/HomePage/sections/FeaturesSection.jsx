@@ -37,7 +37,7 @@ const FeaturesSection = () => {
   );
 };
 
-var settings = {
+const settings = {
   loop: false,
   margin: 20,
   stagePadding: 12,

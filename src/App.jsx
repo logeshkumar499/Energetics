@@ -6,8 +6,9 @@ import CustomLoader from "./components/Loader";
 import Layout from "./layout";
 import HomePage from "./pages/HomePage";
 import ContactPage from "./pages/ContactPage";
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel/dist/assets/owl.theme.default.css';
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+import AboutUsPage from "./pages/AboutUsPage";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/home" element={<HomePage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/about" element={<AboutUsPage />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
         </Suspense>

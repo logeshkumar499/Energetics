@@ -7,6 +7,9 @@ import FeaturesImg_2 from "../assets/images/features-2.png";
 import FeaturesImg_3 from "../assets/images/features-3.png";
 import FeaturesImg_4 from "../assets/images/features-4.png";
 import FeaturesImg_5 from "../assets/images/features-5.png";
+import User1 from "../assets/images/user-1.png";
+import User2 from "../assets/images/user-2.png";
+import Description from "../components/Input/Description";
 
 export const TechnologyTabs = [
   {
@@ -88,7 +91,7 @@ export const FeaturesContent = [
       "We believe in close collaboration with our clients throughout the development process. From initial consultation to post-launch support, we work with you to ensure your software is always meeting your evolving needs.",
   },
   {
-    id: 4,
+    id: 5,
     title: "Games & Entertainment Technology. ",
     imgSource: FeaturesImg_5,
     describtion:
@@ -106,31 +109,31 @@ export const FooterContent = [
         subTitle: "Home",
         link: "/home",
       },
-    //   {
-    //     id: 2,
-    //     subTitle: "Services",
-    //     link: "/Services",
-    //   },
-    //   {
-    //     id: 3,
-    //     subTitle: "Products",
-    //     link: "/Products",
-    //   },
+      //   {
+      //     id: 2,
+      //     subTitle: "Services",
+      //     link: "/Services",
+      //   },
+      //   {
+      //     id: 3,
+      //     subTitle: "Products",
+      //     link: "/Products",
+      //   },
       {
         id: 4,
         subTitle: "About Us",
         link: "/about",
       },
-    //   {
-    //     id: 5,
-    //     subTitle: "Career",
-    //     link: "/Career",
-    //   },
-    //   {
-    //     id: 6,
-    //     subTitle: "Developers",
-    //     link: "/Developers",
-    //   },
+      //   {
+      //     id: 5,
+      //     subTitle: "Career",
+      //     link: "/Career",
+      //   },
+      //   {
+      //     id: 6,
+      //     subTitle: "Developers",
+      //     link: "/Developers",
+      //   },
       {
         id: 7,
         subTitle: "Contact Us",
@@ -156,25 +159,107 @@ export const FooterContent = [
       },
     ],
   },
-//   {
-//     id: 3,
-//     title: "Legal",
-//     subContent: [
-//       {
-//         id: 1,
-//         subTitle: "Privacy Policy",
-//         link: "/",
-//       },
-//       {
-//         id: 2,
-//         subTitle: "Terms of use",
-//         link: "/",
-//       },
-//       {
-//         id: 3,
-//         subTitle: "Cookie Settings",
-//         link: "/",
-//       },
-//     ],
-//   },
+  //   {
+  //     id: 3,
+  //     title: "Legal",
+  //     subContent: [
+  //       {
+  //         id: 1,
+  //         subTitle: "Privacy Policy",
+  //         link: "/",
+  //       },
+  //       {
+  //         id: 2,
+  //         subTitle: "Terms of use",
+  //         link: "/",
+  //       },
+  //       {
+  //         id: 3,
+  //         subTitle: "Cookie Settings",
+  //         link: "/",
+  //       },
+  //     ],
+  //   },
+];
+
+export const OurAdvisorsContent = [
+  {
+    id: 1,
+    imgSource: User1,
+    name: "James Marnus",
+    designation: "Director",
+  },
+  {
+    id: 2,
+    imgSource: User1,
+    name: "James Marnus",
+    designation: "Director",
+  },
+  {
+    id: 3,
+    imgSource: User1,
+    name: "Lily Charlotte",
+    designation: "Director",
+  },
+];
+
+export const KeyPlayerContent = [
+  {
+    id: 1,
+    imgSource: User1,
+    name: "James Marnus",
+    designation: "Frontend Developer",
+  },
+  {
+    id: 2,
+    imgSource: User1,
+    name: "James Marnus",
+    designation: "Director",
+  },
+  {
+    id: 3,
+    imgSource: User1,
+    name: "James Marnus",
+    designation: "UIUIX Designer",
+  },
+  {
+    id: 4,
+    imgSource: User1,
+    name: "James Marnus",
+    designation: "Director",
+  },
+];
+
+export const ExcellenceSectionContent = [
+  {
+    id: 1,
+    title: "Foundation",
+    description:
+      "Started as a small web design and marketing company with a team of 4",
+    year: "2010-2011",
+  },
+  {
+    id: 2,
+    title: "Evolution",
+    description: "With a team size of 25+ developed 350+ yahoo stores and become a leader ",
+    year: "2011-2012",
+  },
+  {
+    id: 3,
+    title: "Elevation",
+    description: "Defined eCommerce as a destiny and Magento as a platform, with a team of 75+ to become Magento Bronze Partner ",
+    year: "2012-2013",
+  },
+  {
+    id: 4,
+    title: "Scale",
+    description: "A global team of 150+. Became Adobe Gold Partner and top contributor having a Magento Master award.",
+    year: "2018-2020",
+  },
+  {
+    id: 5,
+    title: "Renascence",
+    description: "Reformed mission and services, became platform agnostic, award-winning & Adobe specialized partner with 200+ team",
+    year: "2020-2023",
+  },
 ];
