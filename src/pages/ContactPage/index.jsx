@@ -34,6 +34,7 @@ const ContactPage = () => {
             <div className="contact-form">
               <h5 className="contact-title">Get in Touch</h5>
               <p className="contact-subtitle">You can reach us anytime</p>
+              {/* <p className="contact-subtitle">We don’t just talk about innovation—we live it. Ready to transform your business?</p> */}
               <Row>
                 <Col sm={12} md={6}>
                   <Input

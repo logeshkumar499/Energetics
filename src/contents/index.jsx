@@ -8,8 +8,11 @@ import FeaturesImg_3 from "../assets/images/features-3.png";
 import FeaturesImg_4 from "../assets/images/features-4.png";
 import FeaturesImg_5 from "../assets/images/features-5.png";
 import User1 from "../assets/images/user-1.png";
-import User2 from "../assets/images/user-2.png";
-import Description from "../components/Input/Description";
+// import User2 from "../assets/images/user-2.png";
+// import Description from "../components/Input/Description";
+import witmerImg from "../assets/images/witmer-icon.png";
+import KarthicImg from "../assets/images/karthik.png";
+import AnandImg from "../assets/images/anand.png";
 
 export const TechnologyTabs = [
   {
@@ -241,25 +244,59 @@ export const ExcellenceSectionContent = [
   {
     id: 2,
     title: "Evolution",
-    description: "With a team size of 25+ developed 350+ yahoo stores and become a leader ",
+    description:
+      "With a team size of 25+ developed 350+ yahoo stores and become a leader ",
     year: "2011-2012",
   },
   {
     id: 3,
     title: "Elevation",
-    description: "Defined eCommerce as a destiny and Magento as a platform, with a team of 75+ to become Magento Bronze Partner ",
+    description:
+      "Defined eCommerce as a destiny and Magento as a platform, with a team of 75+ to become Magento Bronze Partner ",
     year: "2012-2013",
   },
   {
     id: 4,
     title: "Scale",
-    description: "A global team of 150+. Became Adobe Gold Partner and top contributor having a Magento Master award.",
+    description:
+      "A global team of 150+. Became Adobe Gold Partner and top contributor having a Magento Master award.",
     year: "2018-2020",
   },
   {
     id: 5,
     title: "Renascence",
-    description: "Reformed mission and services, became platform agnostic, award-winning & Adobe specialized partner with 200+ team",
+    description:
+      "Reformed mission and services, became platform agnostic, award-winning & Adobe specialized partner with 200+ team",
     year: "2020-2023",
   },
+];
+
+export const AboutSectionContent = [
+  {
+    id: 1,
+    imgSource: KarthicImg,
+    logo: witmerImg,
+    linkedIn:"https://www.linkedin.com/in/karthik-b/",
+    name: "Karthik Balakrishnan,",
+    designation:"Founder & CEO",
+    description:
+      "One of the standout aspects of working with witmer is their proactive approach to problem-solving. They don’t just follow instructions; they actively engage with us to understand our business goals and provide innovative solutions that drive our growth. Their ability to adapt to our evolving requirements and deliver on time has made them an invaluable partner.",
+  },
+  {
+    id: 2,
+    imgSource: AnandImg,
+    logo: witmerImg,
+    linkedIn:"https://www.linkedin.com/in/anandkumarpadmanaban/",
+    name: "Anand Padmanabhan Kumar,",
+    designation:"Co-founder",
+    description: "We have been partnering with witmer for over two years, and their expertise and dedication have been instrumental in our success. Their team consistently delivers high-quality software solutions tailored to our specific needs, ensuring seamless integration with our existing systems. The level of professionalism and attention to detail they bring to each project is unparalleled.",
+  },
+  // {
+  //   id: 3,
+  //   imgSource: KarthicImg,
+  //   logo:witmerImg,
+  //   name: "Marnus",
+  //   designation: "Director",
+  //   description:""
+  // },
 ];

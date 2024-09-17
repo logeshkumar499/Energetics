@@ -1,7 +1,7 @@
 import React from "react";
-import cardOne from "../../../assets/images/home-card-1.png";
-import cardTwo from "../../../assets/images/home-card-2.png";
-import cardThree from "../../../assets/images/home-card-3.png";
+import cardOne from "../../../assets/images/home-card-4.png";
+import cardTwo from "../../../assets/images/home-card-5.png";
+import cardThree from "../../../assets/images/home-card-6.png";
 
 const ContentSection = () => {
   return (
@@ -25,7 +25,7 @@ const ContentSection = () => {
                 style={{ backgroundImage: `url(${cardTwo})` }}
               />
               <ContentSectionCard
-                className="card-two black-txt h-50"
+                className="card-two white-txt h-50"
                 title="Speed of Light (c²)"
                 description="The velocity of change in the tech world is exponential. Energetics AI keeps pace with the fast-moving landscape of technology, accelerating your business toward a future of endless possibilities."
                 style={{ backgroundImage: `url(${cardThree})` }}

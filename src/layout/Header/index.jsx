@@ -48,7 +48,11 @@ export default function Header() {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav">
-            <li className={`nav-item ${activeTab == "/home" && "active"}`}>
+            <li
+              className={`nav-item ${
+                (activeTab == "/home" || activeTab == "/") && "active"
+              }`}
+            >
               <a className="nav-link one-line" href="/#/home">
                 Home
               </a>

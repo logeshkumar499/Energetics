@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "reactstrap";
-import User1 from "../../../assets/images/user-1.png";
-import User2 from "../../../assets/images/user-2.png";
+import User1 from "../../../assets/images/nirmal.png";
+import User2 from "../../../assets/images/yasar.png";
 
 const OurLeadershipSection = () => {
   return (
