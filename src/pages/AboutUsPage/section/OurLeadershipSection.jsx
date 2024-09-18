@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Row } from "reactstrap";
 import User1 from "../../../assets/images/nirmal.png";
 import User2 from "../../../assets/images/yasar.png";
+import LinkedInImg from "../../../assets/icons/linkedin.png";
 
 const OurLeadershipSection = () => {
   return (
@@ -27,7 +28,19 @@ const OurLeadershipSection = () => {
               <div className="img-container">
                 <img src={User1} alt="user-img" />
                 <h6 className="name-txt mt-2">Nirmal Ramesh Kotecha</h6>
-                <p className="designation-txt">Director</p>
+                <p className="designation-txt mb-2">Director</p>
+                <a
+                  href="https://www.linkedin.com/in/nirmalkotecha"
+                  target="_blank"
+                  className="mb-3 d-flex justify-content-start align-items-center w-fit-content"
+                >
+                  <span className="designation-txt fw-600">LinkedIn </span>
+                  <img
+                    src={LinkedInImg}
+                    className="social-img ml-2"
+                    alt="SocialImg"
+                  />
+                </a>
               </div>
             </Col>
             <Col
@@ -38,7 +51,19 @@ const OurLeadershipSection = () => {
               <div className="img-container">
                 <img src={User2} alt="user-img" />
                 <h6 className="name-txt mt-2">Yasar Arafath</h6>
-                <p className="designation-txt">Director</p>
+                <p className="designation-txt mb-2">Director</p>
+                <a
+                  href="https://www.linkedin.com/in/abdulrashid1991"
+                  target="_blank"
+                  className="mb-3 d-flex justify-content-start align-items-center w-fit-content"
+                >
+                  <span className="designation-txt fw-600">LinkedIn </span>
+                  <img
+                    src={LinkedInImg}
+                    className="social-img ml-2"
+                    alt="SocialImg"
+                  />
+                </a>
               </div>
             </Col>
           </Row>

@@ -250,9 +250,13 @@
   text-align: left;
   color: #ffffff;
 }
-.about-card-container a img{
-  width: 32px !important;
-  height: 32px;
+.about-card-container a:hover {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+.about-card-container .social-img{
+  width: 30px !important;
+  height: 30px;
 }
 
 .about-card-container .item-section-sub-title span {
@@ -265,7 +269,7 @@
   color: #ffffff;
 }
 
-.about-card-container .item-section-sub-title img {
+.about-card-container .item-logo-img {
   width: 169.22px !important;
   height: 35px;
 }

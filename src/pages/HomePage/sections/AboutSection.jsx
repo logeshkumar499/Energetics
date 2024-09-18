@@ -31,23 +31,41 @@ const AboutSection = () => {
                           src={x.imgSource}
                           alt="about-img"
                         />
+
+                        <a
+                          href={x.linkedIn}
+                          target="_blank"
+                          className="d-flex justify-content-center align-items-center mt-2"
+                        >
+                          <span className="item-section-sub-title">
+                            LinkedIn{" "}
+                          </span>
+                          <img
+                            src={LinkedInImg}
+                            className="social-img ml-2"
+                            alt="SocialImg"
+                          />
+                        </a>
                       </div>
                       <div className="col-md-8 col-sm-12">
                         <h6 className="item-section-title">{x.description}</h6>
                         <p className="item-section-sub-title mb-1">
                           {x.name} <span>{x.designation}</span>
                         </p>
-                        <p className="item-section-sub-title">
-                          <img src={x.logo} alt="witmerImg" />
-                        </p>
-                        <a href={x.linkedIn} target="_blank">
+                        <p className="d-flex">
                           <img
-                            src={LinkedInImg}
+                            src={x.logo}
                             alt="witmerImg"
-                            width={32}
-                            height={32}
+                            className="item-logo-img"
                           />
-                        </a>
+                          {/* <a href={x.linkedIn} target="_blank" className="ml-3">
+                            <img
+                              src={LinkedInImg}
+                              className="social-img"
+                              alt="SocialImg"
+                            />
+                          </a> */}
+                        </p>
                       </div>
                     </div>
                   ))}

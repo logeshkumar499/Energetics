@@ -24,7 +24,6 @@
   --fs-44: 44px;
   --fs-55: 55px;
   --fs-65: 65px;
-
 }
 
 html,
@@ -89,7 +88,15 @@ body {
 .text-start {
   text-align: start !important;
 }
-
-.w-fit-content{
+.fw-400 {
+  font-weight: 400 !important;
+}
+.fw-500 {
+  font-weight: 500 !important;
+}
+.fw-600 {
+  font-weight: 600 !important;
+}
+.w-fit-content {
   width: fit-content !important;
 }
