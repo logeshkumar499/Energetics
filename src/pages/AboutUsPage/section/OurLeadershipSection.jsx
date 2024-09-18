@@ -28,7 +28,7 @@ const OurLeadershipSection = () => {
               <div className="img-container">
                 <img src={User1} alt="user-img" />
                 <h6 className="name-txt mt-2">Nirmal Ramesh Kotecha</h6>
-                <p className="designation-txt mb-2">Director</p>
+                <p className="designation-txt mb-2">Director & CEO</p>
                 <a
                   href="https://www.linkedin.com/in/nirmalkotecha"
                   target="_blank"
@@ -51,7 +51,7 @@ const OurLeadershipSection = () => {
               <div className="img-container">
                 <img src={User2} alt="user-img" />
                 <h6 className="name-txt mt-2">Yasar Arafath</h6>
-                <p className="designation-txt mb-2">Director</p>
+                <p className="designation-txt mb-2">Director & CTO</p>
                 <a
                   href="https://www.linkedin.com/in/abdulrashid1991"
                   target="_blank"

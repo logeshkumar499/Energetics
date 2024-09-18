@@ -53,18 +53,13 @@ const AboutSection = () => {
                           {x.name} <span>{x.designation}</span>
                         </p>
                         <p className="d-flex">
-                          <img
-                            src={x.logo}
-                            alt="witmerImg"
-                            className="item-logo-img"
-                          />
-                          {/* <a href={x.linkedIn} target="_blank" className="ml-3">
+                          <a href={x.logoLink} target="_blank">
                             <img
-                              src={LinkedInImg}
-                              className="social-img"
-                              alt="SocialImg"
+                              src={x.logo}
+                              alt="witmerImg"
+                              className="item-logo-img"
                             />
-                          </a> */}
+                          </a>
                         </p>
                       </div>
                     </div>
