@@ -281,7 +281,7 @@ export const AboutSectionContent = [
     linkedIn:"https://www.linkedin.com/in/warrenam10",
     logoLink:"https://xandzero.com/",
     name: "Warren Menezes,",
-    designation: "Founder X & Zero",
+    designation: "Founder",
     description:"Energetics has carved out a solid reputation in the tech landscape, known for its innovative thinking, problem-solving software solutions and customer-centric approach. With excellent support and a commitment to innovation, they are well-equipped to meet the demands of today's fast-paced environment. We look forward to building our relationship with the team."
   },
   {
@@ -293,7 +293,7 @@ export const AboutSectionContent = [
     logoLink:"https://witmer.ai/",
     designation:"Founder & CEO",
     description:
-      "One of the standout aspects of working with witmer is their proactive approach to problem-solving. They don’t just follow instructions; they actively engage with us to understand our business goals and provide innovative solutions that drive our growth. Their ability to adapt to our evolving requirements and deliver on time has made them an invaluable partner.",
+      "One of the standout aspects of working with energetics is their proactive approach to problem-solving. They don’t just follow instructions; they actively engage with us to understand our business goals and provide innovative solutions that drive our growth. Their ability to adapt to our evolving requirements and deliver on time has made them an invaluable partner.",
   },
   {
     id: 3,
@@ -303,7 +303,7 @@ export const AboutSectionContent = [
     name: "Anand Padmanabhan Kumar,",
     logoLink:"https://witmer.ai/",
     designation:"Co-founder",
-    description: "We have been partnering with witmer for over two years, and their expertise and dedication have been instrumental in our success. Their team consistently delivers high-quality software solutions tailored to our specific needs, ensuring seamless integration with our existing systems. The level of professionalism and attention to detail they bring to each project is unparalleled.",
+    description: "We have been partnering with energetics for over two years, and their expertise and dedication have been instrumental in our success. Their team consistently delivers high-quality software solutions tailored to our specific needs, ensuring seamless integration with our existing systems. The level of professionalism and attention to detail they bring to each project is unparalleled.",
   },
 
 ];
