@@ -12,6 +12,7 @@ import UserIcon from "../../assets/icons/user.png";
 import EmailIcon from "../../assets/icons/email.png";
 import PhoneIcon from "../../assets/icons/phone.png";
 import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
 
 const ContactPage = () => {
   const formik = useFormik({
@@ -34,8 +35,20 @@ const ContactPage = () => {
       formik.setSubmitting(false);
       formik.setValues({});
       formik.resetForm({});
+      toast.success("Your message has been successfully sent!");
     } catch (error) {
       console.log("FAILED...", error);
+      toast.error("Failed to send the message. Please try again later.");
+    }
+  };
+
+  const handleError = () => {
+    if (Object.keys(formik.errors).length > 0) {
+      if (Object.keys(formik.errors).length < 7) {
+        toast.error(formik.errors[Object.keys(formik.errors)[0]]);
+      } else {
+        toast.error("Please enter all details");
+      }
     }
   };
 
@@ -102,7 +115,11 @@ const ContactPage = () => {
               </Row>
               <CommonButton
                 className="w-100"
-                onClick={() => formik.handleSubmit()}
+                onClick={
+                  Object.keys(formik.errors).length > 0
+                    ? handleError
+                    : formik.handleSubmit
+                }
               >
                 Contact us
               </CommonButton>

@@ -170,6 +170,9 @@
     font-size: 16px;
     line-height: 24px;
   }
+  .our-philosophy-section .row{
+    flex-direction: column !important;
+  }
 }
 /* ---------------------------------end of our philosophy section------------------------------------- */
 /* ---------------------------------end of excellence section------------------------------------- */

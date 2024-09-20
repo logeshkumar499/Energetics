@@ -1,35 +1,34 @@
 import { Fragment } from "react";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
-
-let previousPath = "";
 
 function Layout({ children }) {
   const location = useLocation();
   const { pathname, search } = location;
   const currentPath = pathname + search;
-  if (currentPath !== previousPath) {
-    window.scrollTo(0, 0);
-  }
-  setTimeout(() => {
-    previousPath = currentPath;
-  }, 300);
+  const previousPathRef = useRef("");
 
   useEffect(() => {
-    const container = document.getElementById("page-scroller");
-    if (container) {
-      container.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
+    const previousPath = previousPathRef.current;
+    if (currentPath !== previousPath) {
+      const container = document.getElementById("page-scroller");
+      if (container) {
+        container.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      } else {
+        window.scrollTo(0, 0);
+      }
+      previousPathRef.current = currentPath;
     }
-  }, [location.key]);
+  }, [currentPath]);
 
   return (
     <Fragment>
-      <div className="view-container">
-        <main id="page-scroller">{children}</main>
-      </div>
+      <main className="view-container" id="page-scroller">
+        {children}
+      </main>
     </Fragment>
   );
 }
