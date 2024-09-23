@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../../layout/Header";
 import "./contactpage.css";
 import Footer from "../../layout/Footer";
 import { Col, Row } from "reactstrap";
@@ -13,6 +12,7 @@ import EmailIcon from "../../assets/icons/email.png";
 import PhoneIcon from "../../assets/icons/phone.png";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
+import ContactBannerSection from "./ContactBannerSection";
 
 const ContactPage = () => {
   const formik = useFormik({
@@ -54,13 +54,13 @@ const ContactPage = () => {
 
   return (
     <>
-      <section className="container-fluid mb-3">
+      <ContactBannerSection />
+      <section className="container-fluid mb-4">
         <div className="contact-section">
-          <Header />
           <div className="w-100 mt-5 mb-5 h-100 d-flex justify-content-center align-items-center">
             <div className="contact-form">
-              <h5 className="contact-title">Get in Touch</h5>
-              <p className="contact-subtitle">You can reach us anytime</p>
+              {/* <h5 className="contact-title">Get in Touch</h5> */}
+              {/* <p className="contact-subtitle">You can reach us anytime</p> */}
               {/* <p className="contact-subtitle">We don’t just talk about innovation—we live it. Ready to transform your business?</p> */}
               <Row>
                 <Col sm={12} md={6}>

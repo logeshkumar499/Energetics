@@ -6,7 +6,7 @@ import LinkedInImg from "../../../assets/icons/linkedin.png";
 
 const OurLeadershipSection = () => {
   return (
-    <section className="container-fluid">
+    <section className="container-fluid mb-4">
       <div className="leadership-section">
         <div className="col-md-12 p-2">
           <Row className="row row-gap-1 ">

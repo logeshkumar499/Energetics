@@ -71,9 +71,7 @@
 /* ---------------------------------start of content home section------------------------------------- */
 
 .content-home-section,
-.about-section,
-.technology-section,
-.features-section {
+.technology-section {
   border-radius: 30px;
   width: auto;
   height: fit-content;
@@ -84,6 +82,15 @@
       #f2f3ff 28.61%,
       rgba(242, 243, 255, 0) 100%
     );
+}
+
+.about-section,
+.features-section {
+  border-radius: 30px;
+  width: auto;
+  height: fit-content;
+  padding: 1em;
+  background: #f5f5f5;
 }
 
 .content-home-section .card-container {
@@ -254,7 +261,7 @@
   color: #ffffff !important;
   text-decoration: underline;
 }
-.about-card-container .social-img{
+.about-card-container .social-img {
   width: 30px !important;
   height: 30px;
 }
@@ -349,6 +356,9 @@
   display: flex !important;
   align-items: center;
   justify-content: center;
+}
+.nav-tabs .nav-link.active {
+  font-weight: 700 !important;
 }
 
 .tab-content > .tab-pane {

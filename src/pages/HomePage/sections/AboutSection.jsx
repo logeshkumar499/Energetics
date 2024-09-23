@@ -1,9 +1,8 @@
 import React from "react";
 import OwlCarousel from "react-owl-carousel";
-// import KarthicImg from "../../../assets/images/karthik.png";
-// import witmerImg from "../../../assets/images/witmer-icon.png";
-import LinkedInImg from "../../../assets/icons/linkedin-white.png";
+// import LinkedInImg from "../../../assets/icons/linkedin-white.png";
 import { AboutSectionContent } from "../../../contents";
+import AboutSectionItems from "../components/AboutSectionItems";
 
 const AboutSection = () => {
   return (
@@ -23,70 +22,9 @@ const AboutSection = () => {
                   margin={10}
                   {...settings}
                 >
-                  {AboutSectionContent.map((x) => (
-                    <div key={x.id + x.name} className="item row row-gap-1">
-                      <div className="col-md-4 col-sm-12">
-                        <img
-                          className="uesr-img"
-                          src={x.imgSource}
-                          alt="about-img"
-                        />
-
-                        <a
-                          href={x.linkedIn}
-                          target="_blank"
-                          className="d-flex justify-content-center align-items-center mt-2"
-                        >
-                          <span className="item-section-sub-title">
-                            LinkedIn{" "}
-                          </span>
-                          <img
-                            src={LinkedInImg}
-                            className="social-img ml-2"
-                            alt="SocialImg"
-                          />
-                        </a>
-                      </div>
-                      <div className="col-md-8 col-sm-12">
-                        <h6 className="item-section-title">{x.description}</h6>
-                        <p className="item-section-sub-title mb-1">
-                          {x.name} <span>{x.designation}</span>
-                        </p>
-                        <p className="d-flex">
-                          <a href={x.logoLink} target="_blank">
-                            <img
-                              src={x.logo}
-                              alt="witmerImg"
-                              className="item-logo-img"
-                            />
-                          </a>
-                        </p>
-                      </div>
-                    </div>
+                  {AboutSectionContent.map((x, i) => (
+                    <AboutSectionItems item={x} index={i} key={x.id + x.name} />
                   ))}
-                  {/* <div className="item row row-gap-1">
-                    <div className="col-md-4 col-sm-12">
-                      <img
-                        className="uesr-img"
-                        src={KarthicImg}
-                        alt="about-img"
-                      />
-                    </div>
-                    <div className="col-md-8 col-sm-12">
-                      <h6 className="item-section-title">
-                        Lorem ipsum dolor sit amet consectetur. Sit id facilisis
-                        quis dui neque porta. Nibh quis aliquet risus sit nec
-                        eget dui et. Nullam venenatis tempus tristique orci.
-                        Tempor hac integer porta etiam pellentesque
-                      </h6>
-                      <p className="item-section-sub-title mb-1">
-                        Karthik Balakrishnan, <span>Founder & CEO</span>
-                      </p>
-                      <p className="item-section-sub-title">
-                        <img src={witmerImg} alt="witmerImg" />
-                      </p>
-                    </div>
-                  </div> */}
                 </OwlCarousel>
               </div>
             </div>

@@ -1,3 +1,16 @@
+.content-header-section {
+  border-radius: 30px;
+  width: auto;
+  height: fit-content;
+  padding: 1em;
+  background: linear-gradient(0deg, #edf0f7, #edf0f7),
+    radial-gradient(
+      53.7% 85.66% at 37.72% 23.22%,
+      #f2f3ff 28.61%,
+      rgba(242, 243, 255, 0) 100%
+    );
+}
+
 .contact-section {
   background-image: url("../../assets/images/contact-bg.png");
   background-repeat: no-repeat;
@@ -11,7 +24,7 @@
 }
 
 .contact-form {
-  width: 500px;
+  width: 550px;
   height: 100%;
   border-radius: 20px;
   background: #f8fafb;

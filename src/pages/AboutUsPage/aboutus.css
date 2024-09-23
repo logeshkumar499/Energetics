@@ -71,6 +71,7 @@
 /* ---------------------------------end of about banner section------------------------------------- */
 /* ---------------------------------start of our philosophy section------------------------------------- */
 .excellence-section,
+.leadership-section,
 .our-philosophy-section {
   border-radius: 30px;
   width: auto;
@@ -285,7 +286,7 @@
 
 /* ---------------------------------end of excellence section------------------------------------- */
 /* ---------------------------------end of leadership section------------------------------------- */
-.leadership-section,
+/* .leadership-section, */
 .advisor-section,
 .advisor-section,
 .keyplayer-section {

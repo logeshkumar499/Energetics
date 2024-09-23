@@ -15,6 +15,11 @@ import SplendidImg from "../assets/images/x-zero.png";
 import KarthikImg from "../assets/images/karthik.png";
 import AnandImg from "../assets/images/anand.png";
 import WaranImg from "../assets/images/waran.png";
+import AboutBgOne from "../assets/images/about-section-bg-1.png";
+import AboutBgTwo from "../assets/images/about-section-bg-2.png";
+import AboutBgThree from "../assets/images/about-section-bg-3.png";
+import Whatsapp from "../assets/icons/whatsapp.png";
+import Mail from "../assets/icons/mail.png";
 
 export const TechnologyTabs = [
   {
@@ -76,31 +81,31 @@ export const FeaturesContent = [
   },
   {
     id: 2,
-    title: "Data-Driven Decision Making. ",
+    title: "Data-Driven Decision Making.",
     imgSource: FeaturesImg_2,
     describtion:
       "Leveraging powerful analytics and AI, we help businesses make smarter, data-driven decisions. Our solutions provide insights that empower your team to optimize processes and identify new opportunities for growth.",
   },
   {
     id: 3,
-    title: "Commitment to Quality and Security. ",
+    title: "Commitment to Quality and Security.",
     imgSource: FeaturesImg_3,
     describtion:
       "We prioritize security and quality at every stage of development, ensuring that your software is not only innovative but also robust and secure. Your business can rely on solutions that protect sensitive data and operate smoothly at all times. ",
   },
   {
     id: 4,
-    title: "Collaboration and Support. ",
+    title: "Collaboration and Support.",
     imgSource: FeaturesImg_4,
     describtion:
       "We believe in close collaboration with our clients throughout the development process. From initial consultation to post-launch support, we work with you to ensure your software is always meeting your evolving needs.",
   },
   {
     id: 5,
-    title: "Games & Entertainment Technology. ",
+    title: "Games & Entertainment Technology.",
     imgSource: FeaturesImg_5,
     describtion:
-      "Energetics AI is at the forefront of research in game development and entertainment technology. Our R&D efforts include investigating new tools, platforms, and trends such as augmented reality (AR), virtual reality (VR), and AI-driven gaming experiences. We experiment with innovative gameplay mechanics, immersive environments, and interactive storytelling to push the boundaries of entertainment technology. ",
+      "Energetics AI is at the forefront of research in game development and entertainment technology. Our R&D efforts include investigating new tools, platforms, and trends such as augmented reality (AR), virtual reality (VR), and AI-driven gaming experiences.",
   },
 ];
 
@@ -155,12 +160,14 @@ export const FooterContent = [
         subTitle: "business@energetics.ai",
         link: "",
         isLink: false,
+        icon: Mail,
       },
       {
         id: 2,
         subTitle: "+91 98862-11782",
         link: "",
         isLink: false,
+        icon: Whatsapp,
       },
     ],
   },
@@ -278,20 +285,23 @@ export const AboutSectionContent = [
     id: 1,
     imgSource: WaranImg,
     logo: SplendidImg,
-    linkedIn:"https://www.linkedin.com/in/warrenam10",
-    logoLink:"https://xandzero.com/",
+    linkedIn: "https://www.linkedin.com/in/warrenam10",
+    logoLink: "https://xandzero.com/",
     name: "Warren Menezes,",
     designation: "Founder",
-    description:"Energetics has carved out a solid reputation in the tech landscape, known for its innovative thinking, problem-solving software solutions and customer-centric approach. With excellent support and a commitment to innovation, they are well-equipped to meet the demands of today's fast-paced environment. We look forward to building our relationship with the team."
+    bgImg: AboutBgOne,
+    description:
+      "Energetics has carved out a solid reputation in the tech landscape, known for its innovative thinking, problem-solving software solutions and customer-centric approach. With excellent support and a commitment to innovation, they are well-equipped to meet the demands of today's fast-paced environment. We look forward to building our relationship with the team.",
   },
   {
     id: 2,
     imgSource: KarthikImg,
     logo: witmerImg,
-    linkedIn:"https://www.linkedin.com/in/karthik-b",
+    linkedIn: "https://www.linkedin.com/in/karthik-b",
     name: "Karthik Balakrishnan,",
-    logoLink:"https://witmer.ai/",
-    designation:"Founder & CEO",
+    logoLink: "https://witmer.ai/",
+    designation: "Founder & CEO",
+    bgImg: AboutBgTwo,
     description:
       "One of the standout aspects of working with energetics is their proactive approach to problem-solving. They don’t just follow instructions; they actively engage with us to understand our business goals and provide innovative solutions that drive our growth. Their ability to adapt to our evolving requirements and deliver on time has made them an invaluable partner.",
   },
@@ -299,11 +309,12 @@ export const AboutSectionContent = [
     id: 3,
     imgSource: AnandImg,
     logo: witmerImg,
-    linkedIn:"https://www.linkedin.com/in/anandkumarpadmanaban",
+    linkedIn: "https://www.linkedin.com/in/anandkumarpadmanaban",
     name: "Anand Padmanabhan Kumar,",
-    logoLink:"https://witmer.ai/",
-    designation:"Co-founder",
-    description: "We have been partnering with energetics for over two years, and their expertise and dedication have been instrumental in our success. Their team consistently delivers high-quality software solutions tailored to our specific needs, ensuring seamless integration with our existing systems. The level of professionalism and attention to detail they bring to each project is unparalleled.",
+    logoLink: "https://witmer.ai/",
+    designation: "Co-founder",
+    bgImg: AboutBgThree,
+    description:
+      "We have been partnering with energetics for over two years, and their expertise and dedication have been instrumental in our success. Their team consistently delivers high-quality software solutions tailored to our specific needs, ensuring seamless integration with our existing systems. The level of professionalism and attention to detail they bring to each project is unparalleled.",
   },
-
 ];

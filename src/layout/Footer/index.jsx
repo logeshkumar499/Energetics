@@ -27,7 +27,10 @@ const Footer = () => {
                         {x.subContent.map((y, i) => (
                           <li key={y.subTitle + i}>
                             {y?.isLink == false ? (
-                              <span>{y.subTitle}</span>
+                              <span>
+                                <img src={y.icon} alt="icon" width={20} height={20}/>&nbsp;
+                                {y.subTitle}
+                              </span>
                             ) : (
                               <Link to={y.link}>{y.subTitle}</Link>
                             )}
